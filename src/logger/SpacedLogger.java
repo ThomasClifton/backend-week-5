@@ -12,6 +12,7 @@ public class SpacedLogger implements Logger {
 		System.out.println("Error: " + spaced(s));
 	}
 	
+	//Returns String of word with spaces
 	public String spaced(String word) {
 		StringBuilder str = new StringBuilder();
 		for(int i = 0; i < word.length(); i++) {
